@@ -1,4 +1,4 @@
-//QR BY WASI
+//QR BY GEEK
 
 const cluster = require('cluster');
 const path = require('path');
