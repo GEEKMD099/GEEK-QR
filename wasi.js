@@ -1,5 +1,5 @@
 // get qr  code of any bot using this ....................
-//coded  by wasi
+//coded  by MR_LEGEEK
 
 
 const express = require("express");
@@ -17,14 +17,14 @@ const { Boom } = require("@hapi/boom");
 const PORT = process.env.PORT ||  5000
 const MESSAGE = process.env.MESSAGE ||  `
 ┌───⭓『
-❒ *WASI-MD*
+❒ *GEEK-MD*
 ❒ _NOW DEPLOY IT_
 └────────────⭓
 ┌───⭓
 ❒  • Chat with owner •
-❒ *GitHub:* __https://github.com/WASI-MD_
-❒ *Author:* _wa.me/923192173398_
-❒ *YT:* _https://youtube.com/@wasitech10_
+❒ *GitHub:* __https://github.com/GEEK-MD_
+❒ *Author:* _wa.me/237698046545_
+❒
 └────────────⭓
 `
 
@@ -96,16 +96,16 @@ SESSION-ID ==> ${Scan_Id}
             // console.log("Reason : ",DisconnectReason[reason])
             if (reason === DisconnectReason.connectionClosed) {
               console.log("Connection closed!")
-             // WASI().catch(err => console.log(err));
+             // GEEK().catch(err => console.log(err));
             } else if (reason === DisconnectReason.connectionLost) {
                 console.log("Connection Lost from Server!")
-            //  WASI().catch(err => console.log(err));
+            //  GEEK().catch(err => console.log(err));
             } else if (reason === DisconnectReason.restartRequired) {
                 console.log("Restart Required, Restarting...")
-              WASI().catch(err => console.log(err));
+              GEEK().catch(err => console.log(err));
             } else if (reason === DisconnectReason.timedOut) {
                 console.log("Connection TimedOut!")
-             // WASI().catch(err => console.log(err));
+             // GEEK().catch(err => console.log(err));
             }  else {
                 console.log('Connection closed with bot. Please run again.');
                 console.log(reason)
