@@ -2,8 +2,8 @@
     "name": "geek-qr",
     "description": "This is GEEK MD QR Scanner",
     "logo": "https://imgbb.com/",
-    "repository": "https://github.com/Itxxwasi/WASI-QR",
-    "keywords": ["whatsappbot", "WasiQR", "wasi QR bot", "Wasi-Qr", "WasiMdWhatsappBot", "WasiWaBot","WasiMD","Wasi Md Whatsapp Bot","multi device"],
+    "repository": "https://github.com/GEEKMD099/GEEK-QR",
+    "keywords": ["whatsappbot", "GEEKQR", "wasi QR bot", "GEEK-Qr", "WasiMdWhatsappBot", "geekWaBot","GEEKMD","Wasi Md Whatsapp Bot","multi device"],
     "success_url": "/", 
     "buildpacks": [{ "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" } ],
     "env": {      
